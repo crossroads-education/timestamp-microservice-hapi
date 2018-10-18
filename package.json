@@ -1,0 +1,27 @@
+{
+  "name": "timestamp-microservice-hapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crossroads-education/timestamp-microservice-hapi.git"
+  },
+  "keywords": [],
+  "author": "Gwendolyn Faraday <gwenfaraday@gmail.com> (http://gwenfaraday.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/crossroads-education/timestamp-microservice-hapi/issues"
+  },
+  "homepage": "https://github.com/crossroads-education/timestamp-microservice-hapi#readme",
+  "dependencies": {
+    "hapi": "17.6.0",
+    "hapi-pino": "5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  }
+}
